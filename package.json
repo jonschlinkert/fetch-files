@@ -24,9 +24,20 @@
     "extend-shallow": "^2.0.1",
     "lazy-cache": "^0.2.1",
     "object.omit": "^2.0.0",
-    "simple-get": "^1.4.2",
+    "request": "^2.60.0",
     "write": "^0.2.1"
   },
-  "devDependencies": {},
-  "keywords": []
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "should": "^7.0.4"
+  },
+  "keywords": [],
+  "verb": {
+    "related": {
+      "list": [
+        "github-base",
+        "gists"
+      ]
+    }
+  }
 }

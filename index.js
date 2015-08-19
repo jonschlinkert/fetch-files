@@ -135,7 +135,6 @@ FetchFiles.prototype = {
         next(new Error('fetch-files needs a url.'));
         return;
       }
-
       config.contents = lazy.request(config);
       cb(config);
       next(null, config);
