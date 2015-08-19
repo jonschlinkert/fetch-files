@@ -1,0 +1,32 @@
+{
+  "name": "fetch-files",
+  "description": "Download files using presets.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/fetch-files",
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "jonschlinkert/fetch-files",
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/fetch-files/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "async-each": "^0.1.6",
+    "extend-shallow": "^2.0.1",
+    "lazy-cache": "^0.2.1",
+    "object.omit": "^2.0.0",
+    "simple-get": "^1.4.2",
+    "write": "^0.2.1"
+  },
+  "devDependencies": {},
+  "keywords": []
+}
