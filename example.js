@@ -3,8 +3,8 @@
  * Example usage
  */
 
-var Downloader = require('./');
-var downloader = new Downloader({destBase: 'foo/bar'});
+var FetchFiles = require('./');
+var downloader = new FetchFiles({destBase: 'foo/bar'});
 
 downloader.preset('github', {
   url: 'https://raw.githubusercontent.com',
